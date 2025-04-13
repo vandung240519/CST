@@ -1,0 +1,317 @@
+'# MWS Version: Version 2024.1 - Oct 16 2023 - ACIS 33.0.1 -
+
+'# length = mm
+'# frequency = GHz
+'# time = ns
+'# frequency range: fmin = 1.5 fmax = 3.5
+'# created = '[VERSION]2024.1|33.0.1|20231016[/VERSION]
+
+
+'@ import odbpp file: D:\project_altium\PCB_DATK_1\Project Outputs for PCB_DATK_1\EFR32.tgz
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With LayoutDB
+     .Reset 
+     .SourceFileName "D:\project_altium\PCB_DATK_1\Project Outputs for PCB_DATK_1\EFR32.tgz" 
+     .LdbFileName "*EFR32_0.ldb" 
+     .PcbType "odbpp" 
+     .KeepSynchronized "True" 
+     .CreateDB 
+     .LoadDB 
+End With
+
+'@ define brick: EFR32_0(PCB1):doc1
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Brick
+     .Reset 
+     .Name "doc1" 
+     .Component "EFR32_0(PCB1)" 
+     .Material "EFR32_0(PCB1)/Copper" 
+     .Xrange "x", "x+1.016" 
+     .Yrange "y", "y+7.8994" 
+     .Zrange "h", "h+0.035" 
+     .Create
+End With
+
+'@ define brick: EFR32_0(PCB1):doc2
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Brick
+     .Reset 
+     .Name "doc2" 
+     .Component "EFR32_0(PCB1)" 
+     .Material "EFR32_0(PCB1)/Copper" 
+     .Xrange "x+3.937", "x+4.953" 
+     .Yrange "y", "y+7.8994" 
+     .Zrange "h", "h+0.035" 
+     .Create
+End With
+
+'@ define brick: EFR32_0(PCB1):ngang
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Brick
+     .Reset 
+     .Name "ngang" 
+     .Component "EFR32_0(PCB1)" 
+     .Material "EFR32_0(PCB1)/Copper" 
+     .Xrange "x+4.953", "x+4.953-21.844" 
+     .Yrange "y+7.8994", "y+7.8994+0.9906" 
+     .Zrange "h", "h+0.035" 
+     .Create
+End With
+
+'@ pick center point
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+Pick.PickCenterpointFromId "EFR32_0(PCB1):doc1", "3"
+
+'@ define discrete port: 1
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With DiscretePort 
+     .Reset 
+     .PortNumber "1" 
+     .Type "SParameter"
+     .Label ""
+     .Folder ""
+     .Impedance "50.0"
+     .Voltage "1.0"
+     .Current "1.0"
+     .Monitor "True"
+     .Radius "0.0"
+     .SetP1 "True", "22.358", "51.3", "0.86306"
+     .SetP2 "False", "22.358", "50.5", "0.86306"
+     .InvertDirection "False"
+     .LocalCoordinates "False"
+     .Wire ""
+     .Position "end1"
+     .Create 
+End With
+
+'@ define frequency range
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+Solver.FrequencyRange "1.5", "3.5"
+
+'@ define time domain solver parameters
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+Mesh.SetCreator "High Frequency" 
+
+With Solver 
+     .Method "Hexahedral"
+     .CalculationType "TD-S"
+     .StimulationPort "All"
+     .StimulationMode "All"
+     .SteadyStateLimit "-40"
+     .MeshAdaption "False"
+     .AutoNormImpedance "False"
+     .NormingImpedance "50"
+     .CalculateModesOnly "False"
+     .SParaSymmetry "False"
+     .StoreTDResultsInCache  "False"
+     .RunDiscretizerOnly "False"
+     .FullDeembedding "False"
+     .SuperimposePLWExcitation "False"
+     .UseSensitivityAnalysis "False"
+End With
+
+'@ set PBA version
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+Discretizer.PBAVersion "2023101624"
+
+'@ farfield plot options
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With FarfieldPlot 
+     .Plottype "3D" 
+     .Vary "angle1" 
+     .Theta "90" 
+     .Phi "90" 
+     .Step "5" 
+     .Step2 "5" 
+     .SetLockSteps "True" 
+     .SetPlotRangeOnly "False" 
+     .SetThetaStart "0" 
+     .SetThetaEnd "180" 
+     .SetPhiStart "0" 
+     .SetPhiEnd "360" 
+     .SetTheta360 "True" 
+     .SymmetricRange "False" 
+     .SetTimeDomainFF "False" 
+     .SetFrequency "-1" 
+     .SetTime "0" 
+     .SetColorByValue "True" 
+     .DrawStepLines "False" 
+     .DrawIsoLongitudeLatitudeLines "False" 
+     .ShowStructure "False" 
+     .ShowStructureProfile "False" 
+     .SetStructureTransparent "False" 
+     .SetFarfieldTransparent "False" 
+     .AspectRatio "Free" 
+     .ShowGridlines "True" 
+     .InvertAxes "False", "False" 
+     .SetSpecials "enablepolarextralines" 
+     .SetPlotMode "Efield" 
+     .Distance "1" 
+     .UseFarfieldApproximation "True" 
+     .IncludeUnitCellSidewalls "True" 
+     .SetScaleLinear "False" 
+     .SetLogRange "40" 
+     .SetLogNorm "0" 
+     .DBUnit "0" 
+     .SetMaxReferenceMode "abs" 
+     .EnableFixPlotMaximum "False" 
+     .SetFixPlotMaximumValue "1.0" 
+     .SetInverseAxialRatio "False" 
+     .SetAxesType "user" 
+     .SetAntennaType "isotropic" 
+     .Phistart "1.000000e+00", "0.000000e+00", "0.000000e+00" 
+     .Thetastart "0.000000e+00", "0.000000e+00", "1.000000e+00" 
+     .PolarizationVector "0.000000e+00", "1.000000e+00", "0.000000e+00" 
+     .SetCoordinateSystemType "spherical" 
+     .SetAutomaticCoordinateSystem "True" 
+     .SetPolarizationType "Abs" 
+     .SlantAngle 0.000000e+00 
+     .Origin "bbox" 
+     .Userorigin "0.000000e+00", "0.000000e+00", "0.000000e+00" 
+     .SetUserDecouplingPlane "False" 
+     .UseDecouplingPlane "False" 
+     .DecouplingPlaneAxis "X" 
+     .DecouplingPlanePosition "0.000000e+00" 
+     .LossyGround "False" 
+     .GroundEpsilon "1" 
+     .GroundKappa "0" 
+     .EnablePhaseCenterCalculation "False" 
+     .SetPhaseCenterAngularLimit "3.000000e+01" 
+     .SetPhaseCenterComponent "boresight" 
+     .SetPhaseCenterPlane "both" 
+     .ShowPhaseCenter "True" 
+     .ClearCuts 
+
+     .StoreSettings
+End With
+
+'@ define monitor: e-field (f=2.45)
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Monitor 
+     .Reset 
+     .Name "e-field (f=2.45)" 
+     .Dimension "Volume" 
+     .Domain "Frequency" 
+     .FieldType "Efield" 
+     .MonitorValue "2.45" 
+     .UseSubvolume "False" 
+     .Coordinates "Structure" 
+     .SetSubvolume "-0.50038506293747", "41.140377442937", "-0.50037999984006", "68.19137999984", "0", "1.08128094001" 
+     .SetSubvolumeOffset "0.0", "0.0", "0.0", "0.0", "0.0", "0.0" 
+     .SetSubvolumeInflateWithOffset "False" 
+     .Create 
+End With
+
+'@ change solver type
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+ChangeSolverType "HF Time Domain"
+
+'@ define farfield monitor: farfield (f=2.45)
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Monitor 
+     .Reset 
+     .Name "farfield (f=2.45)" 
+     .Domain "Frequency" 
+     .FieldType "Farfield" 
+     .MonitorValue "2.45" 
+     .ExportFarfieldSource "False" 
+     .UseSubvolume "False" 
+     .Coordinates "Structure" 
+     .SetSubvolume "-0.50038506293747", "41.140377442937", "-0.50037999984006", "68.19137999984", "0", "1.08128094001" 
+     .SetSubvolumeOffset "10", "10", "10", "10", "10", "10" 
+     .SetSubvolumeInflateWithOffset "False" 
+     .SetSubvolumeOffsetType "FractionOfWavelength" 
+     .EnableNearfieldCalculation "True" 
+     .Create 
+End With
+
+'@ define frequency range
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+Solver.FrequencyRange "1.5", "3.5"
+
+'@ farfield plot options
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With FarfieldPlot 
+     .Plottype "Polar" 
+     .Vary "angle1" 
+     .Theta "90" 
+     .Phi "90" 
+     .Step "1" 
+     .Step2 "1" 
+     .SetLockSteps "False" 
+     .SetPlotRangeOnly "False" 
+     .SetThetaStart "0" 
+     .SetThetaEnd "180" 
+     .SetPhiStart "0" 
+     .SetPhiEnd "360" 
+     .SetTheta360 "True" 
+     .SymmetricRange "False" 
+     .SetTimeDomainFF "False" 
+     .SetFrequency "-1" 
+     .SetTime "0" 
+     .SetColorByValue "True" 
+     .DrawStepLines "False" 
+     .DrawIsoLongitudeLatitudeLines "False" 
+     .ShowStructure "False" 
+     .ShowStructureProfile "False" 
+     .SetStructureTransparent "False" 
+     .SetFarfieldTransparent "False" 
+     .AspectRatio "Free" 
+     .ShowGridlines "True" 
+     .InvertAxes "False", "False" 
+     .SetSpecials "enablepolarextralines" 
+     .SetPlotMode "Efield" 
+     .Distance "1" 
+     .UseFarfieldApproximation "True" 
+     .IncludeUnitCellSidewalls "True" 
+     .SetScaleLinear "False" 
+     .SetLogRange "40" 
+     .SetLogNorm "0" 
+     .DBUnit "0" 
+     .SetMaxReferenceMode "abs" 
+     .EnableFixPlotMaximum "False" 
+     .SetFixPlotMaximumValue "1.0" 
+     .SetInverseAxialRatio "False" 
+     .SetAxesType "user" 
+     .SetAntennaType "isotropic" 
+     .Phistart "1.000000e+00", "0.000000e+00", "0.000000e+00" 
+     .Thetastart "0.000000e+00", "0.000000e+00", "1.000000e+00" 
+     .PolarizationVector "0.000000e+00", "1.000000e+00", "0.000000e+00" 
+     .SetCoordinateSystemType "spherical" 
+     .SetAutomaticCoordinateSystem "True" 
+     .SetPolarizationType "Abs" 
+     .SlantAngle 0.000000e+00 
+     .Origin "bbox" 
+     .Userorigin "0.000000e+00", "0.000000e+00", "0.000000e+00" 
+     .SetUserDecouplingPlane "False" 
+     .UseDecouplingPlane "False" 
+     .DecouplingPlaneAxis "X" 
+     .DecouplingPlanePosition "0.000000e+00" 
+     .LossyGround "False" 
+     .GroundEpsilon "1" 
+     .GroundKappa "0" 
+     .EnablePhaseCenterCalculation "False" 
+     .SetPhaseCenterAngularLimit "3.000000e+01" 
+     .SetPhaseCenterComponent "boresight" 
+     .SetPhaseCenterPlane "both" 
+     .ShowPhaseCenter "True" 
+     .ClearCuts 
+
+     .StoreSettings
+End With
+

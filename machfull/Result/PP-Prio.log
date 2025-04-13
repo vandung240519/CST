@@ -1,0 +1,436 @@
+=========================================
+== CST Matrix Calculation Priority Log ==
+=========================================
+Priorities are sorted in ascending order beginning with the lowest priority
+ 
+Group | Shape-ID | ShapeName | Material | User-priority | 2D/3D-Geometry | Material-attributes | Shape-attributes | Feature-ID | Schemetype
+1 | 356 | </cst/Boundaries/> Low^X | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 357 | </cst/Boundaries/> Low^Y | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 358 | </cst/Boundaries/> Low^Z | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 359 | </cst/Boundaries/> Up^X | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 360 | </cst/Boundaries/> Up^Y | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 361 | </cst/Boundaries/> Up^Z | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+2 | 354 | </cst/Ports/> 1^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | edge-element.wire. | n/a | FIT_TD
+2 | 355 | </cst/Ports/> 1^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | edge-element.wire. | n/a | FIT_TD
+3 | 364 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C10^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 365 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C10^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 366 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C11^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 367 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C11^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 368 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C12^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 369 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C12^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 370 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C13^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 371 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C13^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 372 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C14^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 373 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C14^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 374 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C15^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 375 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C15^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 376 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C16^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 377 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C16^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 378 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C17^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 379 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C17^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 380 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C18^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 381 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C18^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 382 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C19^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 383 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C19^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 362 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C1^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 363 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C1^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 386 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C20^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 387 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C20^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 388 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C21^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 389 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C21^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 384 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C2^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 385 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C2^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 390 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C3^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 391 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C3^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 392 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C4^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 393 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C4^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 394 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C5^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 395 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C5^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 396 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C6^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 397 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C6^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 398 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C7^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 399 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C7^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 400 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C8^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 401 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C8^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 402 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C9^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 403 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):C9^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 404 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):L1^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 405 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):L1^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 406 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):L2^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 407 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):L2^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 408 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):L3^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 409 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):L3^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 410 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):L4^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 411 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):L4^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 414 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):R12^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 415 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):R12^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 416 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):R13^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 417 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):R13^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 412 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):R1^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 413 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):R1^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 418 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):R2^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 419 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):R2^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 420 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):R3^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 421 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):R3^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 422 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):R4^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 423 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):R4^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 424 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):R7^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 425 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):R7^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 426 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):R8^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 427 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):R8^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 428 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):R9^t0 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+3 | 429 | </cst/Lumped Elements/> discrete_face_port:EFR32_0(PCB1):R9^t1 | EFR32_0(PCB1)/Copper | n/a | no | pec.rho.surface-impedance. | face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+4 | 157 | EFR32_0(PCB1)/Substrates:01_TOP_SOLDER | EFR32_0(PCB1)/FR4 | n/a | yes | dispersive-mue.normal.rho. | solid. | n/a | FIT_TD
+4 | 158 | EFR32_0(PCB1)/Substrates:03_DIELECTRIC_1 | EFR32_0(PCB1)/FR4_1 | n/a | yes | dispersive-mue.normal.rho. | solid. | n/a | FIT_TD
+4 | 159 | EFR32_0(PCB1)/Substrates:05_BOTTOM_SOLDER | EFR32_0(PCB1)/FR4 | n/a | yes | dispersive-mue.normal.rho. | solid. | n/a | FIT_TD
+5 | 156 | EFR32_0(PCB1)/PEC Sheets:leads | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 287 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 2) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 288 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 3) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 289 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 4) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 290 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 5) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 291 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 6) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 292 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 7) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 293 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 8) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 294 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 9) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 295 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 10) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 296 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 11) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 297 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 12) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 298 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 13) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 299 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 14) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 300 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 15) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 301 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 16) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 302 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 17) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 303 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 18) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 304 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 19) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 305 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 20) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 306 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 21) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 307 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 22) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 308 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 23) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 309 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 24) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 310 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 25) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 311 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 26) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 312 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 27) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 313 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 28) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 314 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 29) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 315 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 30) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 316 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 31) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 317 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 32) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 318 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 33) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 319 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 34) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 320 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 35) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 321 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 36) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 322 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 37) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 323 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 38) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 324 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 39) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 325 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 40) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 326 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 41) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 327 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 42) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 328 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 43) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 329 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 44) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 330 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 45) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 331 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 46) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 332 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 47) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 333 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 48) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 334 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 49) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 335 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 50) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 336 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 51) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 337 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 52) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 338 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 53) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 339 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 54) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 340 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 55) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 341 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 56) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 342 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 57) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 343 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 58) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 344 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 59) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 345 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 60) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 346 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 61) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 347 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 62) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 348 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 63) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 349 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 64) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 350 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 65) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 351 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 66) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 352 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 67) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+5 | 353 | EFR32_0(PCB1)/PEC Sheets:leads (Lump 68) | EFR32_0(PCB1)/PEC Sheets | n/a | yes | pec. | sheet. | n/a | FIT_TD
+6 | 1 | EFR32_0(PCB1)/Nets/AVDD:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 2 | EFR32_0(PCB1)/Nets/BUTTON_1:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 197 | EFR32_0(PCB1)/Nets/BUTTON_1:02_TOP_LAYER (Lump 2) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 3 | EFR32_0(PCB1)/Nets/BUTTON_1:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 4 | EFR32_0(PCB1)/Nets/BUTTON_1:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 198 | EFR32_0(PCB1)/Nets/BUTTON_1:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 2) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 5 | EFR32_0(PCB1)/Nets/BUTTON_2:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 199 | EFR32_0(PCB1)/Nets/BUTTON_2:02_TOP_LAYER (Lump 2) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 6 | EFR32_0(PCB1)/Nets/BUTTON_2:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 200 | EFR32_0(PCB1)/Nets/BUTTON_2:04_BOTTOM_LAYER (Lump 2) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 7 | EFR32_0(PCB1)/Nets/BUTTON_2:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 201 | EFR32_0(PCB1)/Nets/BUTTON_2:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 2) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 202 | EFR32_0(PCB1)/Nets/BUTTON_2:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 3) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 8 | EFR32_0(PCB1)/Nets/DVDD:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 203 | EFR32_0(PCB1)/Nets/DVDD:02_TOP_LAYER (Lump 2) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 204 | EFR32_0(PCB1)/Nets/DVDD:02_TOP_LAYER (Lump 3) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 9 | EFR32_0(PCB1)/Nets/DVDD:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 205 | EFR32_0(PCB1)/Nets/DVDD:04_BOTTOM_LAYER (Lump 2) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 10 | EFR32_0(PCB1)/Nets/DVDD:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 206 | EFR32_0(PCB1)/Nets/DVDD:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 2) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 207 | EFR32_0(PCB1)/Nets/DVDD:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 3) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 208 | EFR32_0(PCB1)/Nets/DVDD:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 4) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 11 | EFR32_0(PCB1)/Nets/GND:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 209 | EFR32_0(PCB1)/Nets/GND:02_TOP_LAYER (Lump 2) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 210 | EFR32_0(PCB1)/Nets/GND:02_TOP_LAYER (Lump 3) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 211 | EFR32_0(PCB1)/Nets/GND:02_TOP_LAYER (Lump 4) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 212 | EFR32_0(PCB1)/Nets/GND:02_TOP_LAYER (Lump 5) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 213 | EFR32_0(PCB1)/Nets/GND:02_TOP_LAYER (Lump 6) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 214 | EFR32_0(PCB1)/Nets/GND:02_TOP_LAYER (Lump 7) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 215 | EFR32_0(PCB1)/Nets/GND:02_TOP_LAYER (Lump 8) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 216 | EFR32_0(PCB1)/Nets/GND:02_TOP_LAYER (Lump 9) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 217 | EFR32_0(PCB1)/Nets/GND:02_TOP_LAYER (Lump 10) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 12 | EFR32_0(PCB1)/Nets/GND:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 218 | EFR32_0(PCB1)/Nets/GND:04_BOTTOM_LAYER (Lump 2) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 219 | EFR32_0(PCB1)/Nets/GND:04_BOTTOM_LAYER (Lump 3) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 220 | EFR32_0(PCB1)/Nets/GND:04_BOTTOM_LAYER (Lump 4) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 13 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 221 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 2) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 222 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 3) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 223 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 4) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 224 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 5) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 225 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 6) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 226 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 7) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 227 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 8) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 228 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 9) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 229 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 10) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 230 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 11) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 231 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 12) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 232 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 13) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 233 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 14) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 234 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 15) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 235 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 16) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 236 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 17) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 237 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 18) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 238 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 19) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 239 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 20) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 240 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 21) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 241 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 22) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 242 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 23) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 243 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 24) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 244 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 25) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 245 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 26) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 246 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 27) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 247 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 28) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 248 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 29) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 249 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 30) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 250 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 31) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 251 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 32) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 252 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 33) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 253 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 34) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 254 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 35) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 255 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 36) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 256 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 37) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 257 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 38) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 258 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 39) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 259 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 40) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 260 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 41) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 261 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 42) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 262 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 43) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 263 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 44) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 264 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 45) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 265 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 46) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 266 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 47) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 267 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 48) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 268 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 49) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 269 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 50) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 270 | EFR32_0(PCB1)/Nets/GND:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 51) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 14 | EFR32_0(PCB1)/Nets/HF_0:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 15 | EFR32_0(PCB1)/Nets/HF_I:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 16 | EFR32_0(PCB1)/Nets/LED_B:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 271 | EFR32_0(PCB1)/Nets/LED_B:02_TOP_LAYER (Lump 2) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 17 | EFR32_0(PCB1)/Nets/LED_B:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 18 | EFR32_0(PCB1)/Nets/LED_B:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 272 | EFR32_0(PCB1)/Nets/LED_B:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 2) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 19 | EFR32_0(PCB1)/Nets/LED_G:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 273 | EFR32_0(PCB1)/Nets/LED_G:02_TOP_LAYER (Lump 2) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 20 | EFR32_0(PCB1)/Nets/LED_G:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 21 | EFR32_0(PCB1)/Nets/LED_G:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 274 | EFR32_0(PCB1)/Nets/LED_G:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 2) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 22 | EFR32_0(PCB1)/Nets/LED_R:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 275 | EFR32_0(PCB1)/Nets/LED_R:02_TOP_LAYER (Lump 2) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 23 | EFR32_0(PCB1)/Nets/LED_R:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 24 | EFR32_0(PCB1)/Nets/LED_R:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 276 | EFR32_0(PCB1)/Nets/LED_R:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 2) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 25 | EFR32_0(PCB1)/Nets/NETC10_2:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 277 | EFR32_0(PCB1)/Nets/NETC10_2:02_TOP_LAYER (Lump 2) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 26 | EFR32_0(PCB1)/Nets/NETC10_2:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 27 | EFR32_0(PCB1)/Nets/NETC10_2:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 278 | EFR32_0(PCB1)/Nets/NETC10_2:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 2) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 28 | EFR32_0(PCB1)/Nets/NETC15_2:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 29 | EFR32_0(PCB1)/Nets/NETC16_1:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 30 | EFR32_0(PCB1)/Nets/NETC16_2:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 31 | EFR32_0(PCB1)/Nets/NETC17_2:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 32 | EFR32_0(PCB1)/Nets/NETC18_1:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 33 | EFR32_0(PCB1)/Nets/NETC19_2:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 34 | EFR32_0(PCB1)/Nets/NETC7_1:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 35 | EFR32_0(PCB1)/Nets/NETD_C:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 36 | EFR32_0(PCB1)/Nets/NETD_C:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 37 | EFR32_0(PCB1)/Nets/NETD_C:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 38 | EFR32_0(PCB1)/Nets/NETJ2_01:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 39 | EFR32_0(PCB1)/Nets/NETJ2_01:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 40 | EFR32_0(PCB1)/Nets/NETJ2_01:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 41 | EFR32_0(PCB1)/Nets/NETJ2_02:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 42 | EFR32_0(PCB1)/Nets/NETJ2_02:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 43 | EFR32_0(PCB1)/Nets/NETJ2_02:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 44 | EFR32_0(PCB1)/Nets/NETJ2_03:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 45 | EFR32_0(PCB1)/Nets/NETJ2_03:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 46 | EFR32_0(PCB1)/Nets/NETJ2_03:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 47 | EFR32_0(PCB1)/Nets/NETJ2_04:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 48 | EFR32_0(PCB1)/Nets/NETJ2_04:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 49 | EFR32_0(PCB1)/Nets/NETJ2_04:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 50 | EFR32_0(PCB1)/Nets/NETJ2_05:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 51 | EFR32_0(PCB1)/Nets/NETJ2_05:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 52 | EFR32_0(PCB1)/Nets/NETJ2_05:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 53 | EFR32_0(PCB1)/Nets/NETJ2_06:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 54 | EFR32_0(PCB1)/Nets/NETJ2_06:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 55 | EFR32_0(PCB1)/Nets/NETJ2_06:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 56 | EFR32_0(PCB1)/Nets/NETJ3_01:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 57 | EFR32_0(PCB1)/Nets/NETJ3_01:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 58 | EFR32_0(PCB1)/Nets/NETJ3_01:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 59 | EFR32_0(PCB1)/Nets/NETJ3_05:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 60 | EFR32_0(PCB1)/Nets/NETJ3_05:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 61 | EFR32_0(PCB1)/Nets/NETJ3_05:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 62 | EFR32_0(PCB1)/Nets/NETJ3_06:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 63 | EFR32_0(PCB1)/Nets/NETJ3_06:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 64 | EFR32_0(PCB1)/Nets/NETJ3_06:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 65 | EFR32_0(PCB1)/Nets/NETJ4_02:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 66 | EFR32_0(PCB1)/Nets/NETJ4_02:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 67 | EFR32_0(PCB1)/Nets/NETJ4_02:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 68 | EFR32_0(PCB1)/Nets/NETJ4_03:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 69 | EFR32_0(PCB1)/Nets/NETJ4_03:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 70 | EFR32_0(PCB1)/Nets/NETJ4_03:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 71 | EFR32_0(PCB1)/Nets/NETJ4_04:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 72 | EFR32_0(PCB1)/Nets/NETJ4_04:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 73 | EFR32_0(PCB1)/Nets/NETJ4_04:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 74 | EFR32_0(PCB1)/Nets/NETJ4_05:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 75 | EFR32_0(PCB1)/Nets/NETJ4_05:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 76 | EFR32_0(PCB1)/Nets/NETJ4_05:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 77 | EFR32_0(PCB1)/Nets/NETJ4_06:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 78 | EFR32_0(PCB1)/Nets/NETJ4_06:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 79 | EFR32_0(PCB1)/Nets/NETJ4_06:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 80 | EFR32_0(PCB1)/Nets/NETJ4_07:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 81 | EFR32_0(PCB1)/Nets/NETJ4_07:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 82 | EFR32_0(PCB1)/Nets/NETJ4_07:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 83 | EFR32_0(PCB1)/Nets/NETJ4_08:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 84 | EFR32_0(PCB1)/Nets/NETJ4_08:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 85 | EFR32_0(PCB1)/Nets/NETJ4_08:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 86 | EFR32_0(PCB1)/Nets/NETJ5_02:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 87 | EFR32_0(PCB1)/Nets/NETJ5_02:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 88 | EFR32_0(PCB1)/Nets/NETJ5_02:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 89 | EFR32_0(PCB1)/Nets/NETJ5_03:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 90 | EFR32_0(PCB1)/Nets/NETJ5_03:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 91 | EFR32_0(PCB1)/Nets/NETJ5_03:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 92 | EFR32_0(PCB1)/Nets/NETJ5_04:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 93 | EFR32_0(PCB1)/Nets/NETJ5_04:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 94 | EFR32_0(PCB1)/Nets/NETJ5_04:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 95 | EFR32_0(PCB1)/Nets/NETJ5_05:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 96 | EFR32_0(PCB1)/Nets/NETJ5_05:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 97 | EFR32_0(PCB1)/Nets/NETJ5_05:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 98 | EFR32_0(PCB1)/Nets/NETJ5_06:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 99 | EFR32_0(PCB1)/Nets/NETJ5_06:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 100 | EFR32_0(PCB1)/Nets/NETJ5_06:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 101 | EFR32_0(PCB1)/Nets/NETJ5_07:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 102 | EFR32_0(PCB1)/Nets/NETJ5_07:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 103 | EFR32_0(PCB1)/Nets/NETJ5_07:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 104 | EFR32_0(PCB1)/Nets/NETJ5_08:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 105 | EFR32_0(PCB1)/Nets/NETJ5_08:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 106 | EFR32_0(PCB1)/Nets/NETJ5_08:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 107 | EFR32_0(PCB1)/Nets/NETJ6_1:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 279 | EFR32_0(PCB1)/Nets/NETJ6_1:02_TOP_LAYER (Lump 2) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 108 | EFR32_0(PCB1)/Nets/NETJ6_1:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 109 | EFR32_0(PCB1)/Nets/NETJ6_1:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 280 | EFR32_0(PCB1)/Nets/NETJ6_1:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 2) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 110 | EFR32_0(PCB1)/Nets/NETJ6_2:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 281 | EFR32_0(PCB1)/Nets/NETJ6_2:02_TOP_LAYER (Lump 2) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 111 | EFR32_0(PCB1)/Nets/NETJ6_2:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 112 | EFR32_0(PCB1)/Nets/NETJ6_2:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 282 | EFR32_0(PCB1)/Nets/NETJ6_2:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 2) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 113 | EFR32_0(PCB1)/Nets/NETJ6_3:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 283 | EFR32_0(PCB1)/Nets/NETJ6_3:02_TOP_LAYER (Lump 2) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 114 | EFR32_0(PCB1)/Nets/NETJ6_3:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 115 | EFR32_0(PCB1)/Nets/NETJ6_3:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 284 | EFR32_0(PCB1)/Nets/NETJ6_3:VIA_TOP_LAYER_BOTTOM_LAYER (Lump 2) | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 116 | EFR32_0(PCB1)/Nets/NETL2_1:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 117 | EFR32_0(PCB1)/Nets/NETLED1_4:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 118 | EFR32_0(PCB1)/Nets/NETLED1_5:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 119 | EFR32_0(PCB1)/Nets/NETLED1_6:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 120 | EFR32_0(PCB1)/Nets/NETR2_2:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 121 | EFR32_0(PCB1)/Nets/NETR3_2:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 122 | EFR32_0(PCB1)/Nets/NETR4_1:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 123 | EFR32_0(PCB1)/Nets/NETU2_47:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 124 | EFR32_0(PCB1)/Nets/NETU2_48:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 125 | EFR32_0(PCB1)/Nets/NONE:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 285 | EFR32_0(PCB1)/Nets/NONE:02_TOP_LAYER (Lump 2) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 126 | EFR32_0(PCB1)/Nets/NONE:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 286 | EFR32_0(PCB1)/Nets/NONE:04_BOTTOM_LAYER (Lump 2) | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 127 | EFR32_0(PCB1)/Nets/PAVDD:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 128 | EFR32_0(PCB1)/Nets/RFVDD:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 129 | EFR32_0(PCB1)/Nets/SNONES_10:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 130 | EFR32_0(PCB1)/Nets/SNONES_11:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 131 | EFR32_0(PCB1)/Nets/SNONES_12:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 132 | EFR32_0(PCB1)/Nets/SNONES_13:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 133 | EFR32_0(PCB1)/Nets/SNONES_13:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 134 | EFR32_0(PCB1)/Nets/SNONES_13:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 135 | EFR32_0(PCB1)/Nets/SNONES_14:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 136 | EFR32_0(PCB1)/Nets/SNONES_14:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 137 | EFR32_0(PCB1)/Nets/SNONES_14:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 138 | EFR32_0(PCB1)/Nets/SNONES_15:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 139 | EFR32_0(PCB1)/Nets/SNONES_15:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 140 | EFR32_0(PCB1)/Nets/SNONES_15:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 141 | EFR32_0(PCB1)/Nets/SNONES_16:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 142 | EFR32_0(PCB1)/Nets/SNONES_16:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 143 | EFR32_0(PCB1)/Nets/SNONES_16:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 144 | EFR32_0(PCB1)/Nets/SNONES_1:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 145 | EFR32_0(PCB1)/Nets/SNONES_2:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 146 | EFR32_0(PCB1)/Nets/SNONES_3:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 147 | EFR32_0(PCB1)/Nets/SNONES_4:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 148 | EFR32_0(PCB1)/Nets/SNONES_5:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 149 | EFR32_0(PCB1)/Nets/SNONES_6:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 150 | EFR32_0(PCB1)/Nets/SNONES_7:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 151 | EFR32_0(PCB1)/Nets/SNONES_8:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 152 | EFR32_0(PCB1)/Nets/SNONES_9:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 153 | EFR32_0(PCB1)/Nets/VBUS:02_TOP_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 154 | EFR32_0(PCB1)/Nets/VBUS:04_BOTTOM_LAYER | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 155 | EFR32_0(PCB1)/Nets/VBUS:VIA_TOP_LAYER_BOTTOM_LAYER | EFR32_0(PCB1)/VIAS_MATERIAL | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 160 | EFR32_0(PCB1):doc1 | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 161 | EFR32_0(PCB1):doc2 | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+6 | 162 | EFR32_0(PCB1):ngang | EFR32_0(PCB1)/Copper | n/a | yes | pec.rho.surface-impedance. | solid. | n/a | FIT_TD
+7 | 163 | discrete_face_port:EFR32_0(PCB1):C1 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 164 | discrete_face_port:EFR32_0(PCB1):C10 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 165 | discrete_face_port:EFR32_0(PCB1):C11 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 166 | discrete_face_port:EFR32_0(PCB1):C12 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 167 | discrete_face_port:EFR32_0(PCB1):C13 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 168 | discrete_face_port:EFR32_0(PCB1):C14 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 169 | discrete_face_port:EFR32_0(PCB1):C15 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 170 | discrete_face_port:EFR32_0(PCB1):C16 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 171 | discrete_face_port:EFR32_0(PCB1):C17 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 172 | discrete_face_port:EFR32_0(PCB1):C18 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 173 | discrete_face_port:EFR32_0(PCB1):C19 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 174 | discrete_face_port:EFR32_0(PCB1):C2 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 175 | discrete_face_port:EFR32_0(PCB1):C20 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 176 | discrete_face_port:EFR32_0(PCB1):C21 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 177 | discrete_face_port:EFR32_0(PCB1):C3 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 178 | discrete_face_port:EFR32_0(PCB1):C4 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 179 | discrete_face_port:EFR32_0(PCB1):C5 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 180 | discrete_face_port:EFR32_0(PCB1):C6 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 181 | discrete_face_port:EFR32_0(PCB1):C7 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 182 | discrete_face_port:EFR32_0(PCB1):C8 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 183 | discrete_face_port:EFR32_0(PCB1):C9 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 184 | discrete_face_port:EFR32_0(PCB1):L1 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 185 | discrete_face_port:EFR32_0(PCB1):L2 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 186 | discrete_face_port:EFR32_0(PCB1):L3 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 187 | discrete_face_port:EFR32_0(PCB1):L4 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 188 | discrete_face_port:EFR32_0(PCB1):R1 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 189 | discrete_face_port:EFR32_0(PCB1):R12 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 190 | discrete_face_port:EFR32_0(PCB1):R13 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 191 | discrete_face_port:EFR32_0(PCB1):R2 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 192 | discrete_face_port:EFR32_0(PCB1):R3 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 193 | discrete_face_port:EFR32_0(PCB1):R4 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 194 | discrete_face_port:EFR32_0(PCB1):R7 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 195 | discrete_face_port:EFR32_0(PCB1):R8 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+7 | 196 | discrete_face_port:EFR32_0(PCB1):R9 | PEC | n/a | yes | pec. | face-center-gap.face-element.face-port.lumped-element.sheet. | n/a | FIT_TD
+=========================================

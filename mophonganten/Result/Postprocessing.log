@@ -1,0 +1,20 @@
+Post-processing Logfile 
+
+----------------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+----------------------------------------------------------------------------------------
+
+Template based post-processing started at: 2025-04-12 23:57:18
+
+  Evaluating 'Z1,1': 1.532 s
+  Evaluating 'Y1,1': 1.174 s
+
+  Total time: 2 s  ( = 0 h, 0 m, 2 s )
+
+Template based post-processing finished at: 2025-04-12 23:57:21
+----------------------------------------------------------------------------------------

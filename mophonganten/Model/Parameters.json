@@ -1,0 +1,40 @@
+{
+    "parameters": [
+        {
+            "expr": "-0.05",
+            "name": "x",
+            "value": "-0.05"
+        },
+        {
+            "expr": "51",
+            "name": "y",
+            "value": "51"
+        },
+        {
+            "expr": "0.8",
+            "name": "h",
+            "value": "0.8"
+        },
+        {
+            "expr": "-0.12",
+            "name": "a",
+            "value": "-0.12"
+        },
+        {
+            "expr": "0",
+            "name": "b",
+            "value": "0"
+        },
+        {
+            "expr": "0",
+            "name": "d",
+            "value": "0"
+        },
+        {
+            "expr": "0",
+            "name": "c",
+            "value": "0"
+        }
+    ],
+    "version": 1
+}

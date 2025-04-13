@@ -1,0 +1,119 @@
+{
+    "general": {
+        "version": "2024.1",
+        "date": "2023-10-16",
+        "acis": "33.0.1",
+        "buildnumber": "20231016",
+        "project_type": "MWS",
+        "length": "mm",
+        "frequency": {
+            "unit": "GHz",
+            "minimum": "0",
+            "maximum": "0",
+            "minimum_expr": "0.0",
+            "maximum_expr": "0.0"
+        },
+        "time": "ns",
+        "created": "2024.1|33.0.1|20231016"
+    },
+    "history": [
+        {
+            "caption": "import odbpp file: D:\\project_altium\\PCB_DATK_1\\Project Outputs for PCB_DATK_1\\EFR32.tgz",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With LayoutDB",
+                "     .Reset ",
+                "     .SourceFileName \"D:\\project_altium\\PCB_DATK_1\\Project Outputs for PCB_DATK_1\\EFR32.tgz\" ",
+                "     .LdbFileName \"*EFR32.ldb\" ",
+                "     .PcbType \"odbpp\" ",
+                "     .KeepSynchronized \"True\" ",
+                "     .CreateDB ",
+                "     .LoadDB ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "define brick: EFR32(PCB1)/PEC Sheets:doc1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Brick",
+                "     .Reset ",
+                "     .Name \"doc1\" ",
+                "     .Component \"EFR32(PCB1)/PEC Sheets\" ",
+                "     .Material \"EFR32(PCB1)/PEC Sheets\" ",
+                "     .Xrange \"x\", \"x+1.016\" ",
+                "     .Yrange \"y\", \"y+7.8994\" ",
+                "     .Zrange \"h\", \"h+0.035\" ",
+                "     .Create",
+                "End With"
+            ]
+        },
+        {
+            "caption": "delete shape: EFR32(PCB1)/PEC Sheets:doc1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Solid.Delete \"EFR32(PCB1)/PEC Sheets:doc1\""
+            ]
+        },
+        {
+            "caption": "define brick: EFR32(PCB1)/PEC Sheets:doc1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Brick",
+                "     .Reset ",
+                "     .Name \"doc1\" ",
+                "     .Component \"EFR32(PCB1)/PEC Sheets\" ",
+                "     .Material \"EFR32(PCB1)/Copper\" ",
+                "     .Xrange \"x\", \"x+1.016\" ",
+                "     .Yrange \"y\", \"y+7.8994\" ",
+                "     .Zrange \"h\", \"h+0.035\" ",
+                "     .Create",
+                "End With"
+            ]
+        },
+        {
+            "caption": "define brick: EFR32(PCB1)/PEC Sheets:solid1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Brick",
+                "     .Reset ",
+                "     .Name \"solid1\" ",
+                "     .Component \"EFR32(PCB1)/PEC Sheets\" ",
+                "     .Material \"EFR32(PCB1)/Copper\" ",
+                "     .Xrange \"x+3.937\", \"x+4.953\" ",
+                "     .Yrange \"y\", \"y+7.8994\" ",
+                "     .Zrange \"h\", \"h+0.035\" ",
+                "     .Create",
+                "End With"
+            ]
+        },
+        {
+            "caption": "define brick: EFR32(PCB1)/PEC Sheets:ngang",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Brick",
+                "     .Reset ",
+                "     .Name \"ngang\" ",
+                "     .Component \"EFR32(PCB1)/PEC Sheets\" ",
+                "     .Material \"EFR32(PCB1)/Copper\" ",
+                "     .Xrange \"x+4.953\", \"x+4.953-21.844\" ",
+                "     .Yrange \"y+7.8994\", \"y+8.89\" ",
+                "     .Zrange \"h\", \"h+0.035\" ",
+                "     .Create",
+                "End With"
+            ]
+        }
+    ]
+}

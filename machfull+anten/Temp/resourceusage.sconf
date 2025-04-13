@@ -1,0 +1,6 @@
+FeatureKeywords:string:modeler:construction_info:object_names, modeler:history:header_not_parsed, modeler:load:fastloading, modeler:hidfile:diagnostics, block:type:saved:MWSSCHEM, modeler:variables:rebuild, modeler:variables:fastrebuild, meshline:hex:check_after_loading:default, meshline:hex:handling_legacy:no, modeler:load:fullloadingduetofastfailure
+pcbconverter/InitialFreePhysicalInMB:int:971
+pcbconverter/MaxResidentSizeInMB:int:39
+pcbconverter/MaxResidentSizeMiB:int:26
+pcbconverter/MinFreePhysicalInMB:int:971
+---
