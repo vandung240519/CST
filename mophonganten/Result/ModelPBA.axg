@@ -2,9 +2,9 @@
 <CSTAuxiliaryGeometry version="20170928">
   <Objects>
     <Object name="Ports\port1" id="7">
-      <Cone position="22 50.25 0.817499995" direction="0 -1 0" dimension="10 10 10" material="$PortMaterial$" text="1" short="1"/>
-      <LineSet points="22 50 0.817499995 22 50.5 0.817499995" stripped="1" material="$WireMaterial$"/>
-      <LineSet points="22 50 0.817499995 22 50.5 0.817499995" stripped="1" material=""/>
+      <Cone position="21.656023 50.5 0.817499995" direction="0 -1 0" dimension="10 10 10" material="$PortMaterial$" text="1" short="1"/>
+      <LineSet points="22 50 0.817499995 21.312048 51 0.817499995" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="22 50 0.817499995 21.312048 51 0.817499995" stripped="1" material=""/>
     </Object>
   </Objects>
   <Materials>

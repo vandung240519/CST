@@ -9,12 +9,12 @@ Units settings:
 
 ----------------------------------------------------------------------------------------
 
-Template based post-processing started at: 2025-04-12 23:57:18
+Template based post-processing started at: 2025-04-13 09:00:30
 
-  Evaluating 'Z1,1': 1.532 s
-  Evaluating 'Y1,1': 1.174 s
+  Evaluating 'Z1,1': 0.822 s
+  Evaluating 'Y1,1': 0.795 s
 
-  Total time: 2 s  ( = 0 h, 0 m, 2 s )
+  Total time: 1 s  ( = 0 h, 0 m, 1 s )
 
-Template based post-processing finished at: 2025-04-12 23:57:21
+Template based post-processing finished at: 2025-04-13 09:00:31
 ----------------------------------------------------------------------------------------

@@ -1,0 +1,384 @@
+{
+    "general": {
+        "version": "2024.1",
+        "date": "2023-10-16",
+        "acis": "33.0.1",
+        "buildnumber": "20231016",
+        "project_type": "MWS",
+        "length": "mm",
+        "frequency": {
+            "unit": "GHz",
+            "minimum": "1.5",
+            "maximum": "3.5",
+            "minimum_expr": "1.5",
+            "maximum_expr": "3.5"
+        },
+        "time": "ns",
+        "created": "2024.1|33.0.1|20231016"
+    },
+    "history": [
+        {
+            "caption": "import odbpp file: C:\\Users\\Administrator\\Downloads\\CST\\Altium\\Antena.tgz",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With LayoutDB",
+                "     .Reset ",
+                "     .SourceFileName \"C:\\Users\\Administrator\\Downloads\\CST\\Altium\\Antena.tgz\" ",
+                "     .LdbFileName \"*Antena.ldb\" ",
+                "     .PcbType \"odbpp\" ",
+                "     .KeepSynchronized \"True\" ",
+                "     .CreateDB ",
+                "     .LoadDB ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "define brick: Antena(PCB1):doc1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Brick",
+                "     .Reset ",
+                "     .Name \"doc1\" ",
+                "     .Component \"Antena(PCB1)\" ",
+                "     .Material \"Antena(PCB1)/Copper\" ",
+                "     .Xrange \"21.9895\", \"22.7655\" ",
+                "     .Yrange \"51\", \"59.538\" ",
+                "     .Zrange \"0.8348\", \"0.8348+0.0348\" ",
+                "     .Create",
+                "End With"
+            ]
+        },
+        {
+            "caption": "define brick: Antena(PCB1):doc2",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Brick",
+                "     .Reset ",
+                "     .Name \"doc2\" ",
+                "     .Component \"Antena(PCB1)\" ",
+                "     .Material \"Antena(PCB1)/Copper\" ",
+                "     .Xrange \"22.7655+2.878\", \"22.7655+2.878+1.116\" ",
+                "     .Yrange \"51.638\", \"59.538\" ",
+                "     .Zrange \"0.8348\", \"0.8348+0.0348\" ",
+                "     .Create",
+                "End With"
+            ]
+        },
+        {
+            "caption": "define brick: Antena(PCB1):ngang",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Brick",
+                "     .Reset ",
+                "     .Name \"ngang\" ",
+                "     .Component \"Antena(PCB1)\" ",
+                "     .Material \"Antena(PCB1)/Copper\" ",
+                "     .Xrange \"22.7655+2.878+1.116-22.25\", \"22.7655+2.878+1.116\" ",
+                "     .Yrange \"59.538\", \"59.538+1.09\" ",
+                "     .Zrange \"0.8348\", \"0.8348+0.0348\" ",
+                "     .Create",
+                "End With"
+            ]
+        },
+        {
+            "caption": "pick center point",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Pick.PickCenterpointFromId \"Antena(PCB1):doc1\", \"3\""
+            ]
+        },
+        {
+            "caption": "pick center point",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Pick.PickCenterpointFromId \"Antena(PCB1)/Substrates:01_SOLDER_MASK_TOP\", \"2\""
+            ]
+        },
+        {
+            "caption": "pick center point",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Pick.PickCenterpointFromId \"Antena(PCB1)/Nets/NONE:02_TOP_LAYER\", \"6\""
+            ]
+        },
+        {
+            "caption": "define discrete port: 1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With DiscretePort ",
+                "     .Reset ",
+                "     .PortNumber \"1\" ",
+                "     .Type \"SParameter\"",
+                "     .Label \"\"",
+                "     .Folder \"\"",
+                "     .Impedance \"50.0\"",
+                "     .Voltage \"1.0\"",
+                "     .Current \"1.0\"",
+                "     .Monitor \"True\"",
+                "     .Radius \"0.0\"",
+                "     .SetP1 \"True\", \"20.319998087376\", \"30.988000318916\", \"0.86962232732244\"",
+                "     .SetP2 \"True\", \"22.37740001217\", \"50.520599971823\", \"0.85221698049183\"",
+                "     .InvertDirection \"False\"",
+                "     .LocalCoordinates \"False\"",
+                "     .Wire \"\"",
+                "     .Position \"end1\"",
+                "     .Create ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "pick center point",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Pick.PickCenterpointFromId \"Antena(PCB1)/Nets/NONE:02_TOP_LAYER\", \"6\""
+            ]
+        },
+        {
+            "caption": "pick center point",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Pick.PickCenterpointFromId \"Antena(PCB1):doc1\", \"3\""
+            ]
+        },
+        {
+            "caption": "define discrete port: 2",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With DiscretePort ",
+                "     .Reset ",
+                "     .PortNumber \"2\" ",
+                "     .Type \"SParameter\"",
+                "     .Label \"\"",
+                "     .Folder \"\"",
+                "     .Impedance \"50.0\"",
+                "     .Voltage \"1.0\"",
+                "     .Current \"1.0\"",
+                "     .Monitor \"True\"",
+                "     .Radius \"0.0\"",
+                "     .SetP1 \"True\", \"22.37740001217\", \"50.520599971823\", \"0.85221698049183\"",
+                "     .SetP2 \"True\", \"22.3775\", \"51\", \"0.8522\"",
+                "     .InvertDirection \"True\"",
+                "     .LocalCoordinates \"False\"",
+                "     .Wire \"\"",
+                "     .Position \"end1\"",
+                "     .Create ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "define frequency range",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Solver.FrequencyRange \"1.5\", \"3.5\""
+            ]
+        },
+        {
+            "caption": "define monitor: e-field (f=2.45)",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Monitor ",
+                "     .Reset ",
+                "     .Name \"e-field (f=2.45)\" ",
+                "     .Dimension \"Volume\" ",
+                "     .Domain \"Frequency\" ",
+                "     .FieldType \"Efield\" ",
+                "     .MonitorValue \"2.45\" ",
+                "     .UseSubvolume \"False\" ",
+                "     .Coordinates \"Structure\" ",
+                "     .SetSubvolume \"-2.5491949315892e-06\", \"40.639997469195\", \"1.4429565453611e-10\", \"61.975999999856\", \"0\", \"0.86962232732244\" ",
+                "     .SetSubvolumeOffset \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\" ",
+                "     .SetSubvolumeInflateWithOffset \"False\" ",
+                "     .Create ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "define farfield monitor: farfield (f=2.45)",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Monitor ",
+                "     .Reset ",
+                "     .Name \"farfield (f=2.45)\" ",
+                "     .Domain \"Frequency\" ",
+                "     .FieldType \"Farfield\" ",
+                "     .MonitorValue \"2.45\" ",
+                "     .ExportFarfieldSource \"False\" ",
+                "     .UseSubvolume \"False\" ",
+                "     .Coordinates \"Structure\" ",
+                "     .SetSubvolume \"-2.5491949315892e-06\", \"40.639997469195\", \"1.4429565453611e-10\", \"61.975999999856\", \"0\", \"0.86962232732244\" ",
+                "     .SetSubvolumeOffset \"10\", \"10\", \"10\", \"10\", \"10\", \"10\" ",
+                "     .SetSubvolumeInflateWithOffset \"False\" ",
+                "     .SetSubvolumeOffsetType \"FractionOfWavelength\" ",
+                "     .EnableNearfieldCalculation \"True\" ",
+                "     .Create ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "define monitor: current-density (f=2.45)",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Monitor ",
+                "     .Reset ",
+                "     .Name \"current-density (f=2.45)\" ",
+                "     .Dimension \"Volume\" ",
+                "     .Domain \"Frequency\" ",
+                "     .FieldType \"Current\" ",
+                "     .MonitorValue \"2.45\" ",
+                "     .UseSubvolume \"False\" ",
+                "     .Coordinates \"Structure\" ",
+                "     .SetSubvolume \"-2.5491949315892e-06\", \"40.639997469195\", \"1.4429565453611e-10\", \"61.975999999856\", \"0\", \"0.86962232732244\" ",
+                "     .SetSubvolumeOffset \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\" ",
+                "     .SetSubvolumeInflateWithOffset \"False\" ",
+                "     .Create ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "define monitor: surface-current (f=2.45)",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Monitor ",
+                "     .Reset ",
+                "     .Name \"surface-current (f=2.45)\" ",
+                "     .Dimension \"Volume\" ",
+                "     .Domain \"Frequency\" ",
+                "     .FieldType \"Surfacecurrent\" ",
+                "     .MonitorValue \"2.45\" ",
+                "     .Create ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "define time domain solver parameters",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Mesh.SetCreator \"High Frequency\" ",
+                "",
+                "With Solver ",
+                "     .Method \"Hexahedral\"",
+                "     .CalculationType \"TD-S\"",
+                "     .StimulationPort \"All\"",
+                "     .StimulationMode \"All\"",
+                "     .SteadyStateLimit \"-40\"",
+                "     .MeshAdaption \"False\"",
+                "     .AutoNormImpedance \"False\"",
+                "     .NormingImpedance \"50\"",
+                "     .CalculateModesOnly \"False\"",
+                "     .SParaSymmetry \"False\"",
+                "     .StoreTDResultsInCache  \"False\"",
+                "     .RunDiscretizerOnly \"False\"",
+                "     .FullDeembedding \"False\"",
+                "     .SuperimposePLWExcitation \"False\"",
+                "     .UseSensitivityAnalysis \"False\"",
+                "End With"
+            ]
+        },
+        {
+            "caption": "set PBA version",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Discretizer.PBAVersion \"2023101624\""
+            ]
+        },
+        {
+            "caption": "delete port: port2",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Port.Delete \"2\""
+            ]
+        },
+        {
+            "caption": "delete port: port1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Port.Delete \"1\""
+            ]
+        },
+        {
+            "caption": "pick center point",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Pick.PickCenterpointFromId \"Antena(PCB1):doc1\", \"3\""
+            ]
+        },
+        {
+            "caption": "pick center point",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Pick.PickCenterpointFromId \"Antena(PCB1)/Nets/NONE:02_TOP_LAYER\", \"6\""
+            ]
+        },
+        {
+            "caption": "define discrete port: 1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With DiscretePort ",
+                "     .Reset ",
+                "     .PortNumber \"1\" ",
+                "     .Type \"SParameter\"",
+                "     .Label \"\"",
+                "     .Folder \"\"",
+                "     .Impedance \"50.0\"",
+                "     .Voltage \"1.0\"",
+                "     .Current \"1.0\"",
+                "     .Monitor \"True\"",
+                "     .Radius \"0.0\"",
+                "     .SetP1 \"True\", \"22.3775\", \"51\", \"0.8522\"",
+                "     .SetP2 \"True\", \"22.37740001217\", \"50.520599971823\", \"0.85221698049183\"",
+                "     .InvertDirection \"False\"",
+                "     .LocalCoordinates \"False\"",
+                "     .Wire \"\"",
+                "     .Position \"end1\"",
+                "     .Create ",
+                "End With"
+            ]
+        }
+    ]
+}

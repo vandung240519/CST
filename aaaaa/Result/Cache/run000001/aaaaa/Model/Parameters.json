@@ -1,0 +1,25 @@
+{
+    "parameters": [
+        {
+            "expr": "0",
+            "name": "x",
+            "value": "0"
+        },
+        {
+            "expr": "0.2",
+            "name": "y",
+            "value": "0.2"
+        },
+        {
+            "expr": "0",
+            "name": "z",
+            "value": "0"
+        },
+        {
+            "expr": "1.4",
+            "name": "t",
+            "value": "1.4"
+        }
+    ],
+    "version": 1
+}

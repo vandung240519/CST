@@ -1,0 +1,40 @@
+*** STARTING PCB CONVERSION ***
+
+Importing C:\Users\Administrator\Downloads\CST\Altium\Antena.tgz... [Sun Apr 13 09:52:01 2025]
+============================================================
+Reading ODB++ database ...
+
+file not found: odb/misc/info.Z
+Reading file odb/matrix/matrix...
+Reading file odb/steps/pcb/profile...
+file not found: odb/steps/pcb/eda/data.Z
+WARNING: The essential file 'steps/pcb/eda/data(.Z)' is missing in the archive.
+eda data: 0 packages, 0 nets.
+Reading file odb/steps/pcb/layers/top_layer/features...
+1902 SWHs on layer TOP_LAYER
+Reading file odb/steps/pcb/layers/dielectric_1/features...
+0 SWHs on layer DIELECTRIC_1
+Reading file odb/steps/pcb/layers/bottom_layer/features...
+1902 SWHs on layer BOTTOM_LAYER
+Added layer SOLDER_MASK_BOTTOM below etch layer BOTTOM_LAYER
+Added layer SOLDER_MASK_TOP above etch layer TOP_LAYER
+Reading file odb/steps/pcb/layers/top_layer/attrlist...
+Reading file odb/steps/pcb/layers/dielectric_1/attrlist...
+Reading file odb/steps/pcb/layers/bottom_layer/attrlist...
+WARNING: material values were set to default due to missing information for the following layers:  'TOP_LAYER', 'DIELECTRIC_1', 'BOTTOM_LAYER'
+parsing drills TOP_LAYER-BOTTOM_LAYER
+Reading file odb/steps/pcb/layers/drill_non-plated_bottom-top/features...
+parsing drills TOP_LAYER-BOTTOM_LAYER
+Reading file odb/steps/pcb/layers/drill_plated_bottom-top/features...
+INFO: 1901 plated drill holes without logical net information
+Unifying library padstacks...
+Finished reading database.
+============================================================
+*** ENDING PCB CONVERSION with SUCCESS***
+
+========== Starting Layout Check ==========
+Checking geometry
+Looking for geometry artifacts
+Looking for healed shape problems
+
+========== End Layout Check ==========

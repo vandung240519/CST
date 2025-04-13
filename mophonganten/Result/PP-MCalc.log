@@ -1,7 +1,7 @@
 ************************************************************************************************
 ------------------------------------------------------------------------------------------------
 Geometry processor: default
-	Geo accuracy: 75.000000
+	Geo accuracy: 64.000000
 	Watertightness check: true
 	Self intersection check: false
 	Inheritance (all): false
@@ -10,8 +10,8 @@ Geometry processor: default
 	Flanges hollow: true
 	One shape per flange: false
 	Multi threading: true
-		max # of threads used: 8
-		requested max # of threads: 8
+		max # of threads used: 12
+		requested max # of threads: 12
 		representation: indexed
 		method: multi thread
 		retry: no

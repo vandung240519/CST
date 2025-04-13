@@ -1,5 +1,5 @@
 {
-    "date": "2025-04-12, 23:57:21, SE Asia Standard Time",
+    "date": "2025-04-13, 09:00:32, SE Asia Standard Time",
     "solver_runs_and_tasks": {
         "module_name": "standard simulation project",
         "solver_run": {
@@ -31,16 +31,16 @@
                 "num_cpu_sockets": 1,
                 "num_dc_nodes": 0,
                 "num_gpus": 0,
-                "num_threads_or_physical_cores": 4
+                "num_threads_or_physical_cores": 6
             },
             "solver_used": "HF Time Domain (Hex)",
             "task_name": "solver run",
             "time_info": {
                 "details": {
-                    "discretizer": 15,
-                    "solver": 31
+                    "discretizer": 6,
+                    "solver": 4
                 },
-                "run_time": 55
+                "run_time": 11
             }
         }
     },

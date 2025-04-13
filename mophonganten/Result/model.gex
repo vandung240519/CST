@@ -61,6 +61,136 @@
       </MeshGroup2D>
       <MeshGroup3D list=""/>
     </Shape>
+    <Shape name="Components\component1:via1" id="7" visible="1" material="Copper (pure)" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="41 42 43 44"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\component1:via1_1" id="8" visible="1" material="Copper (pure)" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="45 46 47 48"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\component1:via1_1_1" id="9" visible="1" material="Copper (pure)" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="49 50 51 52"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\component1:via1_1_1_2" id="10" visible="1" material="Copper (pure)" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="53 54 55 56"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\component1:via1_1_2" id="11" visible="1" material="Copper (pure)" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="57 58 59 60"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\component1:via1_1_2_1" id="12" visible="1" material="Copper (pure)" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="61 62 63 64"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\component1:via1_1_3" id="13" visible="1" material="Copper (pure)" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="65 66 67 68"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\component1:via1_2" id="14" visible="1" material="Copper (pure)" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="69 70 71 72"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\component1:via1_2_1" id="15" visible="1" material="Copper (pure)" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="73 74 75 76"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\component1:via1_2_2" id="16" visible="1" material="Copper (pure)" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="77 78 79 80"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\component1:via1_3" id="17" visible="1" material="Copper (pure)" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="81 82 83 84"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\component1:via1_3_1" id="18" visible="1" material="Copper (pure)" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="85 86 87 88"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
+    <Shape name="Components\component1:via1_4" id="19" visible="1" material="Copper (pure)" line_material="">
+      <MeshGroup0D list=""/>
+      <MeshGroup1D list=""/>
+      <MeshGroup2D>
+        <Pos list="89 90 91 92"/>
+        <Neg list=""/>
+        <DS list=""/>
+      </MeshGroup2D>
+      <MeshGroup3D list=""/>
+    </Shape>
   </Components>
   <Materials>
     <Material name="air_0" priority="1">
@@ -80,11 +210,11 @@
   <SimulationDomain min="-29.9792461 -29.9792461 -30.014246" max="69.979248 90.979248 30.8142452"/>
   <MeshType type="HEX"/>
   <HexMesh>
-    <Dimensions nx="51" ny="52" nz="20"/>
-    <MeshPlanesX values="-29.979245799999998 -24.579978142787375 -19.180710485574767 -13.793648805508955 -9.4578997886983736 -6.5814910605768846 -4.5125977586798474 -3.0083985057865932 -1.5041992528933363 0 1.3773333333333382 2.7546666666666777 4.1320000000000014 5.6292002202329003 7.1264004404658001 8.6236006606987132 10.661644173827387 13.286838597352363 15.7064966922384 17.327774516598268 18.82497473683118 20.122152094242391 21 21.312038626722259 21.611999999999998 22 22.388000000000002 22.687961373277741 23 23.636113425217442 24.403024976276615 25.276 26.392000000000003 27.752112517221377 29.134047577702496 30.515982638183626 32.129048647228423 34.232074863111656 35.85419481855665 37.236129879037783 38.618064939518895 40 41.504199252893244 43.008398505786488 44.512597758679739 46.581491060576703 49.457899788698164 53.793648805508596 59.18071048557438 64.579978142786985 69.979245800000001"/>
+    <Dimensions nx="96" ny="52" nz="20"/>
+    <MeshPlanesX values="-29.979245799999998 -24.78875323319912 -19.598260666398243 -14.407768099597554 -10.003760021351066 -7.0267945185233085 -4.8043657481111799 -3.3037769246278046 -1.8394626076293699 -0.74112227671374364 -4.6213430005513474e-29 0.5 1 1.6365020112188078 2.3977584582926563 3 3.254224511835405 3.5 3.7999999999999994 4.1320000000000014 4.6113436730096478 5.3004937680167794 6 6.5000000000000009 7 7.6218638223988942 8.3781361776011067 9.0000000000000018 9.5 10 10.621863822398895 11.378136177601107 12 12.5 13.000000000000002 13.621863822398893 14.378136177601107 15 15.5 16 16.621863822398893 17.378136177601107 18.000000000000004 18.5 19 19.593787522168185 20.331039096371537 21 21.312047271132041 21.611999999999998 22 22.388000000000002 22.687952728867959 23 23.52586500079606 24 24.25422451183541 24.5 24.800000000000004 25.035482595083145 25.276 25.794565224674752 26.392000000000003 27 27.5 28 28.621863822398893 29.378136177601107 30 30.5 31 31.621863822398893 32.3781361776011 33 33.5 34 34.621863822398893 35.378136177601107 36.000000000000007 36.5 37 37.6218638223989 38.378136177601107 39 39.5 40 40.741122276713718 41.839462607629315 43.303776924627712 44.804365748111032 47.026794518523069 50.003760021350729 54.407768099596979 59.598260666398069 64.788753233199159 69.979245800000001"/>
     <MeshPlanesY values="-29.979245799999998 -24.579342212263768 -19.179438624527542 -13.791808952851092 -9.4552463400342166 -6.5773015151697258 -4.5127308295081781 -3.0084872196721175 -1.504243609836053 0 1.4894043535391714 2.978808707078338 4.4682130606175159 6.4670322241247948 9.0630769467550731 11.671724004079859 14.280371061404646 16.889018118729428 19.497665176054216 22.106312233379001 24.714959290703788 27.32360634802858 29.932253405353361 32.540900462678145 35.149547520002933 37.758194577327714 40.366841634652502 42.975488691977297 45.196584923842984 46.695703893490183 48.16022603448134 49.258752347765373 50 50.5 51.000000000000007 51.749151553551592 52.871531430309403 54.371130196935724 55.892434354423173 57.413738511910594 58.899999999999984 59.989999999999995 61 62.405640513566439 63.890603725042197 65.587822425305234 68.13765299340713 71.160332051162328 75.578207804923821 80.711887136615999 85.845566468308149 90.979245800000001"/>
-    <MeshPlanesZ values="-30.014245799999998 -24.390782974574648 -18.767320149149295 -13.199479618656548 -9.0333241721318434 -6.1852225243657859 -4.2598109191162346 -2.7404444907304608 -1.2221300391860876 0 0.8175 2.0391386861928855 3.5567980530815655 5.0755180389818335 7.0047733614741965 9.8551617961629194 14.026424542864039 19.586999803659666 25.200622801829734 30.814245799999998"/>
-    <SnappingPlanesX values="0 9 12 22 24 25 26 28 31 32 41 50"/>
+    <MeshPlanesZ values="-30.014245799999998 -24.444644578234115 -18.875043356468201 -13.347696167327344 -9.1420042692759491 -6.2843082205319023 -4.3372564553407438 -2.8214496743127842 -1.3056428932848283 -0.034999999999999983 0.8175 2.088662115099972 3.6051096660567805 5.1215572170135824 7.0647005395423816 9.9204500277407934 14.121008422285382 19.655767632540933 25.235006716270398 30.814245799999998"/>
+    <SnappingPlanesX values="0 10 11 12 15 17 18 19 22 23 24 27 28 29 32 33 34 37 38 39 42 43 44 47 49 50 51 53 55 57 58 60 62 63 64 65 68 69 70 73 74 75 78 79 80 83 84 85 95"/>
     <SnappingPlanesY values="0 9 32 33 34 40 41 42 51"/>
     <SnappingPlanesZ values="0 9 10 19"/>
   </HexMesh>

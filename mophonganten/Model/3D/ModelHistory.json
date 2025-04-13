@@ -775,6 +775,386 @@
                 "     .Create ",
                 "End With"
             ]
+        },
+        {
+            "caption": "change solver type",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "ChangeSolverType \"HF Time Domain\""
+            ]
+        },
+        {
+            "caption": "activate local coordinates",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "WCS.ActivateWCS \"local\""
+            ]
+        },
+        {
+            "caption": "define cylinder: component1:via1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Cylinder ",
+                "     .Reset ",
+                "     .Name \"via1\" ",
+                "     .Component \"component1\" ",
+                "     .Material \"Copper (pure)\" ",
+                "     .OuterRadius \"0.5\" ",
+                "     .InnerRadius \"0.3\" ",
+                "     .Axis \"z\" ",
+                "     .Zrange \"-0.035\", \"0.835\" ",
+                "     .Xcenter \"0.5\" ",
+                "     .Ycenter \"50.5\" ",
+                "     .Segments \"0\" ",
+                "     .Create ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "transform: translate component1:via1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Transform ",
+                "     .Reset ",
+                "     .Name \"component1:via1\" ",
+                "     .Vector \"3\", \"0\", \"0\" ",
+                "     .UsePickedPoints \"False\" ",
+                "     .InvertPickedPoints \"False\" ",
+                "     .MultipleObjects \"True\" ",
+                "     .GroupObjects \"False\" ",
+                "     .Repetitions \"1\" ",
+                "     .MultipleSelection \"False\" ",
+                "     .Destination \"\" ",
+                "     .Material \"\" ",
+                "     .AutoDestination \"True\" ",
+                "     .Transform \"Shape\", \"Translate\" ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "transform: translate component1:via1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Transform ",
+                "     .Reset ",
+                "     .Name \"component1:via1\" ",
+                "     .Vector \"6\", \"0\", \"0\" ",
+                "     .UsePickedPoints \"False\" ",
+                "     .InvertPickedPoints \"False\" ",
+                "     .MultipleObjects \"True\" ",
+                "     .GroupObjects \"False\" ",
+                "     .Repetitions \"1\" ",
+                "     .MultipleSelection \"True\" ",
+                "     .Destination \"\" ",
+                "     .Material \"\" ",
+                "     .AutoDestination \"True\" ",
+                "     .Transform \"Shape\", \"Translate\" ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "transform: translate component1:via1_1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Transform ",
+                "     .Reset ",
+                "     .Name \"component1:via1_1\" ",
+                "     .Vector \"6\", \"0\", \"0\" ",
+                "     .UsePickedPoints \"False\" ",
+                "     .InvertPickedPoints \"False\" ",
+                "     .MultipleObjects \"True\" ",
+                "     .GroupObjects \"False\" ",
+                "     .Repetitions \"1\" ",
+                "     .MultipleSelection \"False\" ",
+                "     .Destination \"\" ",
+                "     .Material \"\" ",
+                "     .AutoDestination \"True\" ",
+                "     .Transform \"Shape\", \"Translate\" ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "transform: translate component1:via1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Transform ",
+                "     .Reset ",
+                "     .Name \"component1:via1\" ",
+                "     .Vector \"12\", \"0\", \"0\" ",
+                "     .UsePickedPoints \"False\" ",
+                "     .InvertPickedPoints \"False\" ",
+                "     .MultipleObjects \"True\" ",
+                "     .GroupObjects \"False\" ",
+                "     .Repetitions \"1\" ",
+                "     .MultipleSelection \"True\" ",
+                "     .Destination \"\" ",
+                "     .Material \"\" ",
+                "     .AutoDestination \"True\" ",
+                "     .Transform \"Shape\", \"Translate\" ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "transform: translate component1:via1_1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Transform ",
+                "     .Reset ",
+                "     .Name \"component1:via1_1\" ",
+                "     .Vector \"12\", \"0\", \"0\" ",
+                "     .UsePickedPoints \"False\" ",
+                "     .InvertPickedPoints \"False\" ",
+                "     .MultipleObjects \"True\" ",
+                "     .GroupObjects \"False\" ",
+                "     .Repetitions \"1\" ",
+                "     .MultipleSelection \"True\" ",
+                "     .Destination \"\" ",
+                "     .Material \"\" ",
+                "     .AutoDestination \"True\" ",
+                "     .Transform \"Shape\", \"Translate\" ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "transform: translate component1:via1_1_1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Transform ",
+                "     .Reset ",
+                "     .Name \"component1:via1_1_1\" ",
+                "     .Vector \"12\", \"0\", \"0\" ",
+                "     .UsePickedPoints \"False\" ",
+                "     .InvertPickedPoints \"False\" ",
+                "     .MultipleObjects \"True\" ",
+                "     .GroupObjects \"False\" ",
+                "     .Repetitions \"1\" ",
+                "     .MultipleSelection \"True\" ",
+                "     .Destination \"\" ",
+                "     .Material \"\" ",
+                "     .AutoDestination \"True\" ",
+                "     .Transform \"Shape\", \"Translate\" ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "transform: translate component1:via1_2",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Transform ",
+                "     .Reset ",
+                "     .Name \"component1:via1_2\" ",
+                "     .Vector \"12\", \"0\", \"0\" ",
+                "     .UsePickedPoints \"False\" ",
+                "     .InvertPickedPoints \"False\" ",
+                "     .MultipleObjects \"True\" ",
+                "     .GroupObjects \"False\" ",
+                "     .Repetitions \"1\" ",
+                "     .MultipleSelection \"False\" ",
+                "     .Destination \"\" ",
+                "     .Material \"\" ",
+                "     .AutoDestination \"True\" ",
+                "     .Transform \"Shape\", \"Translate\" ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "transform: translate component1:via1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Transform ",
+                "     .Reset ",
+                "     .Name \"component1:via1\" ",
+                "     .Vector \"24\", \"0\", \"0\" ",
+                "     .UsePickedPoints \"False\" ",
+                "     .InvertPickedPoints \"False\" ",
+                "     .MultipleObjects \"True\" ",
+                "     .GroupObjects \"False\" ",
+                "     .Repetitions \"1\" ",
+                "     .MultipleSelection \"True\" ",
+                "     .Destination \"\" ",
+                "     .Material \"\" ",
+                "     .AutoDestination \"True\" ",
+                "     .Transform \"Shape\", \"Translate\" ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "transform: translate component1:via1_1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Transform ",
+                "     .Reset ",
+                "     .Name \"component1:via1_1\" ",
+                "     .Vector \"24\", \"0\", \"0\" ",
+                "     .UsePickedPoints \"False\" ",
+                "     .InvertPickedPoints \"False\" ",
+                "     .MultipleObjects \"True\" ",
+                "     .GroupObjects \"False\" ",
+                "     .Repetitions \"1\" ",
+                "     .MultipleSelection \"True\" ",
+                "     .Destination \"\" ",
+                "     .Material \"\" ",
+                "     .AutoDestination \"True\" ",
+                "     .Transform \"Shape\", \"Translate\" ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "transform: translate component1:via1_1_1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Transform ",
+                "     .Reset ",
+                "     .Name \"component1:via1_1_1\" ",
+                "     .Vector \"24\", \"0\", \"0\" ",
+                "     .UsePickedPoints \"False\" ",
+                "     .InvertPickedPoints \"False\" ",
+                "     .MultipleObjects \"True\" ",
+                "     .GroupObjects \"False\" ",
+                "     .Repetitions \"1\" ",
+                "     .MultipleSelection \"True\" ",
+                "     .Destination \"\" ",
+                "     .Material \"\" ",
+                "     .AutoDestination \"True\" ",
+                "     .Transform \"Shape\", \"Translate\" ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "transform: translate component1:via1_1_2",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Transform ",
+                "     .Reset ",
+                "     .Name \"component1:via1_1_2\" ",
+                "     .Vector \"24\", \"0\", \"0\" ",
+                "     .UsePickedPoints \"False\" ",
+                "     .InvertPickedPoints \"False\" ",
+                "     .MultipleObjects \"True\" ",
+                "     .GroupObjects \"False\" ",
+                "     .Repetitions \"1\" ",
+                "     .MultipleSelection \"True\" ",
+                "     .Destination \"\" ",
+                "     .Material \"\" ",
+                "     .AutoDestination \"True\" ",
+                "     .Transform \"Shape\", \"Translate\" ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "transform: translate component1:via1_2",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Transform ",
+                "     .Reset ",
+                "     .Name \"component1:via1_2\" ",
+                "     .Vector \"24\", \"0\", \"0\" ",
+                "     .UsePickedPoints \"False\" ",
+                "     .InvertPickedPoints \"False\" ",
+                "     .MultipleObjects \"True\" ",
+                "     .GroupObjects \"False\" ",
+                "     .Repetitions \"1\" ",
+                "     .MultipleSelection \"True\" ",
+                "     .Destination \"\" ",
+                "     .Material \"\" ",
+                "     .AutoDestination \"True\" ",
+                "     .Transform \"Shape\", \"Translate\" ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "transform: translate component1:via1_2_1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Transform ",
+                "     .Reset ",
+                "     .Name \"component1:via1_2_1\" ",
+                "     .Vector \"24\", \"0\", \"0\" ",
+                "     .UsePickedPoints \"False\" ",
+                "     .InvertPickedPoints \"False\" ",
+                "     .MultipleObjects \"True\" ",
+                "     .GroupObjects \"False\" ",
+                "     .Repetitions \"1\" ",
+                "     .MultipleSelection \"True\" ",
+                "     .Destination \"\" ",
+                "     .Material \"\" ",
+                "     .AutoDestination \"True\" ",
+                "     .Transform \"Shape\", \"Translate\" ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "transform: translate component1:via1_3",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "With Transform ",
+                "     .Reset ",
+                "     .Name \"component1:via1_3\" ",
+                "     .Vector \"24\", \"0\", \"0\" ",
+                "     .UsePickedPoints \"False\" ",
+                "     .InvertPickedPoints \"False\" ",
+                "     .MultipleObjects \"True\" ",
+                "     .GroupObjects \"False\" ",
+                "     .Repetitions \"1\" ",
+                "     .MultipleSelection \"False\" ",
+                "     .Destination \"\" ",
+                "     .Material \"\" ",
+                "     .AutoDestination \"True\" ",
+                "     .Transform \"Shape\", \"Translate\" ",
+                "End With"
+            ]
+        },
+        {
+            "caption": "delete shape: component1:via1_2_1_1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Solid.Delete \"component1:via1_2_1_1\""
+            ]
+        },
+        {
+            "caption": "delete shape: component1:via1_1_1_1",
+            "version": "2024.1|33.0.1|20231016",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Solid.Delete \"component1:via1_1_1_1\""
+            ]
         }
     ]
 }

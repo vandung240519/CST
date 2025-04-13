@@ -1,0 +1,210 @@
+2025-04-13 11:16:03   ==========================================================================
+                      Sequence: Sequence 1
+                      ==========================================================================
+
+2025-04-13 11:16:03   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = -0.2
+                         x = -0.15
+2025-04-13 11:16:04   
+                      Structure update: Successful [0 hours, 0 min., 1 sec.]
+2025-04-13 11:17:01              Solver: Successful [0 hours, 0 min., 57 sec.]
+2025-04-13 11:17:01   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = -0.2
+                         x = -0.05
+2025-04-13 11:17:02   
+                      Structure update: Successful [0 hours, 0 min., 1 sec.]
+2025-04-13 11:17:59              Solver: Successful [0 hours, 0 min., 57 sec.]
+2025-04-13 11:17:59   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = -0.2
+                         x = 0.05
+2025-04-13 11:18:01   
+                      Structure update: Successful [0 hours, 0 min., 1 sec.]
+2025-04-13 11:19:01              Solver: Successful [0 hours, 1 min., 0 sec.]
+2025-04-13 11:19:01   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = -0.2
+                         x = 0.12
+2025-04-13 11:19:03   
+                      Structure update: Successful [0 hours, 0 min., 2 sec.]
+2025-04-13 11:20:04              Solver: Successful [0 hours, 1 min., 1 sec.]
+2025-04-13 11:20:04   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = -0.1
+                         x = -0.15
+2025-04-13 11:20:06   
+                      Structure update: Successful [0 hours, 0 min., 1 sec.]
+2025-04-13 11:21:04              Solver: Successful [0 hours, 0 min., 58 sec.]
+2025-04-13 11:21:04   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = -0.1
+                         x = -0.05
+2025-04-13 11:21:06   
+                      Structure update: Successful [0 hours, 0 min., 2 sec.]
+2025-04-13 11:22:03              Solver: Successful [0 hours, 0 min., 57 sec.]
+2025-04-13 11:22:03   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = -0.1
+                         x = 0.05
+2025-04-13 11:22:05   
+                      Structure update: Successful [0 hours, 0 min., 1 sec.]
+2025-04-13 11:23:06              Solver: Successful [0 hours, 1 min., 1 sec.]
+2025-04-13 11:23:06   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = -0.1
+                         x = 0.12
+2025-04-13 11:23:08   
+                      Structure update: Successful [0 hours, 0 min., 2 sec.]
+2025-04-13 11:24:05              Solver: Successful [0 hours, 0 min., 57 sec.]
+2025-04-13 11:24:05   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = 0
+                         x = -0.15
+2025-04-13 11:24:07   
+                      Structure update: Successful [0 hours, 0 min., 1 sec.]
+2025-04-13 11:25:05              Solver: Successful [0 hours, 0 min., 58 sec.]
+2025-04-13 11:25:05   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = 0
+                         x = -0.05
+2025-04-13 11:25:07   
+                      Structure update: Successful [0 hours, 0 min., 2 sec.]
+2025-04-13 11:26:08              Solver: Successful [0 hours, 1 min., 1 sec.]
+2025-04-13 11:26:08   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = 0
+                         x = 0.05
+2025-04-13 11:26:10   
+                      Structure update: Successful [0 hours, 0 min., 1 sec.]
+2025-04-13 11:27:10              Solver: Successful [0 hours, 1 min., 0 sec.]
+2025-04-13 11:27:10   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = 0
+                         x = 0.12
+2025-04-13 11:27:12   
+                      Structure update: Successful [0 hours, 0 min., 2 sec.]
+2025-04-13 11:28:12              Solver: Successful [0 hours, 1 min., 0 sec.]
+2025-04-13 11:28:12   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = 0.1
+                         x = -0.15
+2025-04-13 11:28:13   
+                      Structure update: Successful [0 hours, 0 min., 1 sec.]
+2025-04-13 11:29:11              Solver: Successful [0 hours, 0 min., 58 sec.]
+2025-04-13 11:29:11   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = 0.1
+                         x = -0.05
+2025-04-13 11:29:13   
+                      Structure update: Successful [0 hours, 0 min., 2 sec.]
+2025-04-13 11:30:11              Solver: Successful [0 hours, 0 min., 58 sec.]
+2025-04-13 11:30:11   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = 0.1
+                         x = 0.05
+2025-04-13 11:30:13   
+                      Structure update: Successful [0 hours, 0 min., 1 sec.]
+2025-04-13 11:31:15              Solver: Successful [0 hours, 1 min., 2 sec.]
+2025-04-13 11:31:15   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = 0.1
+                         x = 0.12
+2025-04-13 11:31:16   
+                      Structure update: Successful [0 hours, 0 min., 1 sec.]
+2025-04-13 11:32:14              Solver: Successful [0 hours, 0 min., 58 sec.]
+2025-04-13 11:32:14   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = 0.2
+                         x = -0.15
+2025-04-13 11:32:15   
+                      Structure update: Successful [0 hours, 0 min., 1 sec.]
+2025-04-13 11:33:12              Solver: Successful [0 hours, 0 min., 57 sec.]
+2025-04-13 11:33:12   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = 0.2
+                         x = -0.05
+2025-04-13 11:33:14   
+                      Structure update: Successful [0 hours, 0 min., 2 sec.]
+2025-04-13 11:34:09              Solver: Successful [0 hours, 0 min., 55 sec.]
+2025-04-13 11:34:09   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = 0.2
+                         x = 0.05
+2025-04-13 11:34:10   
+                      Structure update: Successful [0 hours, 0 min., 1 sec.]
+2025-04-13 11:35:13              Solver: Successful [0 hours, 1 min., 3 sec.]
+2025-04-13 11:35:13   --------------------------------------------------------------------------
+                      Parameter Values: 
+
+                         t = 1.4
+                         z = 0
+                         y = 0.2
+                         x = 0.12
+2025-04-13 11:35:14   
+                      Structure update: Successful [0 hours, 0 min., 1 sec.]
+2025-04-13 11:36:12              Solver: Successful [0 hours, 0 min., 58 sec.]
+2025-04-13 11:36:12   --------------------------------------------------------------------------
+2025-04-13 11:36:12   
+                      ==========================================================================
+                      Total structure update time: 0 hours, 0 min., 27 sec.
+                            Total evaluation time: 0 hours, 19 min., 36 sec.
+                      ==========================================================================

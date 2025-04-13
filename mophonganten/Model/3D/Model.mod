@@ -594,3 +594,307 @@ With DiscretePort
      .Create 
 End With
 
+'@ change solver type
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+ChangeSolverType "HF Time Domain"
+
+'@ activate local coordinates
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+WCS.ActivateWCS "local"
+
+'@ define cylinder: component1:via1
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Cylinder 
+     .Reset 
+     .Name "via1" 
+     .Component "component1" 
+     .Material "Copper (pure)" 
+     .OuterRadius "0.5" 
+     .InnerRadius "0.3" 
+     .Axis "z" 
+     .Zrange "-0.035", "0.835" 
+     .Xcenter "0.5" 
+     .Ycenter "50.5" 
+     .Segments "0" 
+     .Create 
+End With
+
+'@ transform: translate component1:via1
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Transform 
+     .Reset 
+     .Name "component1:via1" 
+     .Vector "3", "0", "0" 
+     .UsePickedPoints "False" 
+     .InvertPickedPoints "False" 
+     .MultipleObjects "True" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "False" 
+     .Destination "" 
+     .Material "" 
+     .AutoDestination "True" 
+     .Transform "Shape", "Translate" 
+End With
+
+'@ transform: translate component1:via1
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Transform 
+     .Reset 
+     .Name "component1:via1" 
+     .Vector "6", "0", "0" 
+     .UsePickedPoints "False" 
+     .InvertPickedPoints "False" 
+     .MultipleObjects "True" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "True" 
+     .Destination "" 
+     .Material "" 
+     .AutoDestination "True" 
+     .Transform "Shape", "Translate" 
+End With
+
+'@ transform: translate component1:via1_1
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Transform 
+     .Reset 
+     .Name "component1:via1_1" 
+     .Vector "6", "0", "0" 
+     .UsePickedPoints "False" 
+     .InvertPickedPoints "False" 
+     .MultipleObjects "True" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "False" 
+     .Destination "" 
+     .Material "" 
+     .AutoDestination "True" 
+     .Transform "Shape", "Translate" 
+End With
+
+'@ transform: translate component1:via1
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Transform 
+     .Reset 
+     .Name "component1:via1" 
+     .Vector "12", "0", "0" 
+     .UsePickedPoints "False" 
+     .InvertPickedPoints "False" 
+     .MultipleObjects "True" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "True" 
+     .Destination "" 
+     .Material "" 
+     .AutoDestination "True" 
+     .Transform "Shape", "Translate" 
+End With
+
+'@ transform: translate component1:via1_1
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Transform 
+     .Reset 
+     .Name "component1:via1_1" 
+     .Vector "12", "0", "0" 
+     .UsePickedPoints "False" 
+     .InvertPickedPoints "False" 
+     .MultipleObjects "True" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "True" 
+     .Destination "" 
+     .Material "" 
+     .AutoDestination "True" 
+     .Transform "Shape", "Translate" 
+End With
+
+'@ transform: translate component1:via1_1_1
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Transform 
+     .Reset 
+     .Name "component1:via1_1_1" 
+     .Vector "12", "0", "0" 
+     .UsePickedPoints "False" 
+     .InvertPickedPoints "False" 
+     .MultipleObjects "True" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "True" 
+     .Destination "" 
+     .Material "" 
+     .AutoDestination "True" 
+     .Transform "Shape", "Translate" 
+End With
+
+'@ transform: translate component1:via1_2
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Transform 
+     .Reset 
+     .Name "component1:via1_2" 
+     .Vector "12", "0", "0" 
+     .UsePickedPoints "False" 
+     .InvertPickedPoints "False" 
+     .MultipleObjects "True" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "False" 
+     .Destination "" 
+     .Material "" 
+     .AutoDestination "True" 
+     .Transform "Shape", "Translate" 
+End With
+
+'@ transform: translate component1:via1
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Transform 
+     .Reset 
+     .Name "component1:via1" 
+     .Vector "24", "0", "0" 
+     .UsePickedPoints "False" 
+     .InvertPickedPoints "False" 
+     .MultipleObjects "True" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "True" 
+     .Destination "" 
+     .Material "" 
+     .AutoDestination "True" 
+     .Transform "Shape", "Translate" 
+End With
+
+'@ transform: translate component1:via1_1
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Transform 
+     .Reset 
+     .Name "component1:via1_1" 
+     .Vector "24", "0", "0" 
+     .UsePickedPoints "False" 
+     .InvertPickedPoints "False" 
+     .MultipleObjects "True" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "True" 
+     .Destination "" 
+     .Material "" 
+     .AutoDestination "True" 
+     .Transform "Shape", "Translate" 
+End With
+
+'@ transform: translate component1:via1_1_1
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Transform 
+     .Reset 
+     .Name "component1:via1_1_1" 
+     .Vector "24", "0", "0" 
+     .UsePickedPoints "False" 
+     .InvertPickedPoints "False" 
+     .MultipleObjects "True" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "True" 
+     .Destination "" 
+     .Material "" 
+     .AutoDestination "True" 
+     .Transform "Shape", "Translate" 
+End With
+
+'@ transform: translate component1:via1_1_2
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Transform 
+     .Reset 
+     .Name "component1:via1_1_2" 
+     .Vector "24", "0", "0" 
+     .UsePickedPoints "False" 
+     .InvertPickedPoints "False" 
+     .MultipleObjects "True" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "True" 
+     .Destination "" 
+     .Material "" 
+     .AutoDestination "True" 
+     .Transform "Shape", "Translate" 
+End With
+
+'@ transform: translate component1:via1_2
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Transform 
+     .Reset 
+     .Name "component1:via1_2" 
+     .Vector "24", "0", "0" 
+     .UsePickedPoints "False" 
+     .InvertPickedPoints "False" 
+     .MultipleObjects "True" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "True" 
+     .Destination "" 
+     .Material "" 
+     .AutoDestination "True" 
+     .Transform "Shape", "Translate" 
+End With
+
+'@ transform: translate component1:via1_2_1
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Transform 
+     .Reset 
+     .Name "component1:via1_2_1" 
+     .Vector "24", "0", "0" 
+     .UsePickedPoints "False" 
+     .InvertPickedPoints "False" 
+     .MultipleObjects "True" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "True" 
+     .Destination "" 
+     .Material "" 
+     .AutoDestination "True" 
+     .Transform "Shape", "Translate" 
+End With
+
+'@ transform: translate component1:via1_3
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+With Transform 
+     .Reset 
+     .Name "component1:via1_3" 
+     .Vector "24", "0", "0" 
+     .UsePickedPoints "False" 
+     .InvertPickedPoints "False" 
+     .MultipleObjects "True" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "False" 
+     .Destination "" 
+     .Material "" 
+     .AutoDestination "True" 
+     .Transform "Shape", "Translate" 
+End With
+
+'@ delete shape: component1:via1_2_1_1
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+Solid.Delete "component1:via1_2_1_1"
+
+'@ delete shape: component1:via1_1_1_1
+
+'[VERSION]2024.1|33.0.1|20231016[/VERSION]
+Solid.Delete "component1:via1_1_1_1"
+

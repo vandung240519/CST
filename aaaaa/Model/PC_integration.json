@@ -1,0 +1,29 @@
+{
+   "execution": {
+      "classname": "SMAPowerByEmagHPCFrame",
+      "libname": "SMAPowerByEmagUI"
+   },
+   "inputVariables": [
+      {
+         "name": "x",
+         "type": "float",
+         "value": 0.12
+      },
+      {
+         "name": "y",
+         "type": "float",
+         "value": 0.2
+      },
+      {
+         "name": "z",
+         "type": "float",
+         "value": 0.0
+      },
+      {
+         "name": "t",
+         "type": "float",
+         "value": 1.4
+      }
+   ],
+   "outputVariables": []
+}

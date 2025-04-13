@@ -250,9 +250,7 @@ Port.Delete "1"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:GND1"
-
 [end]content
 [start]recover_picks
 1
@@ -268,9 +266,7 @@ Solid.Delete "component1:GND1"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:GND2"
-
 [end]content
 [start]recover_picks
 1
@@ -286,9 +282,7 @@ Solid.Delete "component1:GND2"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:cat"
-
 [end]content
 [start]recover_picks
 1
@@ -304,9 +298,7 @@ Solid.Delete "component1:cat"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:cat"
-
 [end]content
 [start]recover_picks
 1
@@ -410,19 +402,55 @@ Solid.Delete "component1:cat"
 43
 [end]block_index
 [start]command
-
 '@ define discrete port: 1
  (undo)
 [end]command
 [start]content
 Port.Delete "1"
-
 [end]content
 [start]recover_picks
 1
 [end]recover_picks
 [start]delete_solids
 0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+45
+[end]block_index
+[start]command
+
+'@ activate global coordinates
+
+[end]command
+[start]content
+WCS.ActivateWCS "global"
+
+[end]content
+[start]recover_picks
+0
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+46
+[end]block_index
+[start]command
+[end]command
+[start]content
+
+Solid.Delete "component1:via1"
+
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+1
 [end]delete_solids
 [end]undo_item
 [end]history_fast_undo
