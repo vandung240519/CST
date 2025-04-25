@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSTAuxiliaryGeometry version="20170928" creator="modeler">
+  <Objects>
+    <Object name="Lumped Elements\EFR32(PCB1):C1" id="165">
+      <FatArrow position="17.4379997 27.559 1.07111835" direction="1.70000172 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):C1" short="C1"/>
+      <LineSet points="16.5879974 27.559 1.07111835 18.2880001 27.559 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="17.4379997 27.2897415 1.07111835 17.4379997 27.8282585 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):C10" id="166">
+      <FatArrow position="9.2320013 37.3380013 1.07111835" direction="1.70000172 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):C10" short="C10"/>
+      <LineSet points="8.38199997 37.3380013 1.07111835 10.0820017 37.3380013 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="9.2320013 37.0880013 1.07111835 9.2320013 37.5880013 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):C11" id="167">
+      <FatArrow position="28.0669994 41.1870003 1.07111835" direction="0 1.70000172 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):C11" short="C11"/>
+      <LineSet points="28.0669994 40.336998 1.07111835 28.0669994 42.0369987 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="28.3197975 41.1870003 1.07111835 27.8142033 41.1870003 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):C12" id="168">
+      <FatArrow position="26.4160004 41.1870003 1.07111835" direction="0 -1.70000172 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):C12" short="C12"/>
+      <LineSet points="26.4160004 42.0369987 1.07111835 26.4160004 40.336998 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="26.1632023 41.1870003 1.07111835 26.6687965 41.1870003 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):C13" id="169">
+      <FatArrow position="18.0974998 43.7125015 1.07111835" direction="0 1.70000172 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):C13" short="C13"/>
+      <LineSet points="18.0974998 42.8624992 1.07111835 18.0974998 44.5625 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="18.3524513 43.7125015 1.07111835 17.8425484 43.7125015 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):C14" id="170">
+      <FatArrow position="19.7485008 43.7125015 1.07111835" direction="0 -1.70000172 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):C14" short="C14"/>
+      <LineSet points="19.7485008 44.5625 1.07111835 19.7485008 42.8624992 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="19.4935493 43.7125015 1.07111835 20.0034504 43.7125015 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):C18" id="171">
+      <FatArrow position="22.809 41.1226006 1.07111835" direction="0.864001334 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):C18" short="C18"/>
+      <LineSet points="22.3769989 41.1226006 1.07111835 23.2409992 41.1226006 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="22.809 40.9875984 1.07111835 22.809 41.2575989 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):C19" id="172">
+      <FatArrow position="22.7838001 45.1357994 1.07111835" direction="-0.864001334 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):C19" short="C19"/>
+      <LineSet points="23.2158012 45.1357994 1.07111835 22.351799 45.1357994 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="22.7838001 45.2708015 1.07111835 22.7838001 45.0008011 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):C2" id="173">
+      <FatArrow position="21.2089996 27.559 1.07111835" direction="1.70000172 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):C2" short="C2"/>
+      <LineSet points="20.3589993 27.559 1.07111835 22.059 27.559 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="21.2089996 27.3069611 1.07111835 21.2089996 27.811039 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):C20" id="174">
+      <FatArrow position="22.7838001 49.1744003 1.07111835" direction="-0.864001334 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):C20" short="C20"/>
+      <LineSet points="23.2158012 49.1744003 1.07111835 22.351799 49.1744003 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="22.7838001 49.3093987 1.07111835 22.7838001 49.039402 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):C3" id="175">
+      <FatArrow position="24.5109997 27.6860008 1.07111835" direction="-1.4224 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):C3" short="C3"/>
+      <LineSet points="25.2222004 27.6860008 1.07111835 23.7998009 27.6860008 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="24.5109997 27.8511009 1.07111835 24.5109997 27.5209007 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):C4" id="176">
+      <FatArrow position="21.3360004 29.0830002 1.07111835" direction="1.51800048 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):C4" short="C4"/>
+      <LineSet points="20.5769997 29.0830002 1.07111835 22.0949993 29.0830002 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="21.3360004 28.8330002 1.07111835 21.3360004 29.3330002 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):C5" id="177">
+      <FatArrow position="13.9700003 31.1149998 1.07111835" direction="-1.70000172 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):C5" short="C5"/>
+      <LineSet points="14.8200006 31.1149998 1.07111835 13.1199989 31.1149998 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="13.9700003 31.3649998 1.07111835 13.9700003 30.8649998 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):C6" id="178">
+      <FatArrow position="24.5109997 29.2099991 1.07111835" direction="-1.70000172 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):C6" short="C6"/>
+      <LineSet points="25.3610001 29.2099991 1.07111835 23.6609993 29.2099991 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="24.5109997 29.460001 1.07111835 24.5109997 28.9599991 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):C7" id="179">
+      <FatArrow position="15.3669996 32.8930016 1.07111835" direction="-1.70000172 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):C7" short="C7"/>
+      <LineSet points="16.217001 32.8930016 1.07111835 14.5169992 32.8930016 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="15.3669996 33.1430016 1.07111835 15.3669996 32.6430016 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):C8" id="180">
+      <FatArrow position="13.8430004 27.3050003 1.07111835" direction="1.70000172 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):C8" short="C8"/>
+      <LineSet points="12.9929991 27.3050003 1.07111835 14.6930008 27.3050003 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="13.8430004 27.0550003 1.07111835 13.8430004 27.5550003 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):C9" id="181">
+      <FatArrow position="17.5289993 29.3369999 1.07111835" direction="1.51800048 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):C9" short="C9"/>
+      <LineSet points="16.7699986 29.3369999 1.07111835 18.2880001 29.3369999 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="17.5289993 29.0869999 1.07111835 17.5289993 29.5869999 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):L1" id="182">
+      <FatArrow position="22.3519993 43.0676003 1.07111835" direction="0 0.936000168 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):L1" short="L1"/>
+      <LineSet points="22.3519993 42.5996017 1.07111835 22.3519993 43.5355988 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="22.4669991 43.0676003 1.07111835 22.2369995 43.0676003 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):L2" id="183">
+      <FatArrow position="17.5259991 31.3689995 1.07111835" direction="-1.46999955 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):L2" short="L2"/>
+      <LineSet points="18.2609997 31.3689995 1.07111835 16.7910004 31.3689995 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="17.5259991 31.6114998 1.07111835 17.5259991 31.1264992 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):L3" id="184">
+      <FatArrow position="22.3265991 47.1786003 1.07111835" direction="0 0.936000168 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):L3" short="L3"/>
+      <LineSet points="22.3265991 46.7106018 1.07111835 22.3265991 47.6465988 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="22.4415989 47.1786003 1.07111835 22.2115993 47.1786003 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):R1" id="185">
+      <FatArrow position="8.89000034 35.8139992 1.07111835" direction="-1.64000177 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):R1" short="R1"/>
+      <LineSet points="9.71000099 35.8139992 1.07111835 8.06999874 35.8139992 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="8.89000034 36.0115013 1.07111835 8.89000034 35.6165009 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):R12" id="186">
+      <FatArrow position="32.7659988 15.6210003 1.07111835" direction="-1.64000177 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):R12" short="R12"/>
+      <LineSet points="33.5860023 15.6210003 1.07111835 31.9459991 15.6210003 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="32.7659988 15.8185005 1.07111835 32.7659988 15.4235001 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):R13" id="187">
+      <FatArrow position="10.7950001 12.0649996 1.07111835" direction="0 -1.64000177 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):R13" short="R13"/>
+      <LineSet points="10.7950001 12.8850012 1.07111835 10.7950001 11.2449989 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="10.5974998 12.0649996 1.07111835 10.9925003 12.0649996 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):R2" id="188">
+      <FatArrow position="5.96899986 24.7649994 1.07111835" direction="0 1.56000197 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):R2" short="R2"/>
+      <LineSet points="5.96899986 23.9849987 1.07111835 5.96899986 25.5450001 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="6.18650007 24.7649994 1.07111835 5.75149965 24.7649994 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):R3" id="189">
+      <FatArrow position="18.6690006 11.361001 1.07111835" direction="0 -1.64000177 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):R3" short="R3"/>
+      <LineSet points="18.6690006 12.1810017 1.07111835 18.6690006 10.5410004 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="18.4715004 11.361001 1.07111835 18.8665009 11.361001 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):R4" id="190">
+      <FatArrow position="20.8279991 11.5570002 1.07111835" direction="0 1.64000177 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):R4" short="R4"/>
+      <LineSet points="20.8279991 10.7369995 1.07111835 20.8279991 12.3770008 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="21.0254993 11.5570002 1.07111835 20.6304989 11.5570002 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):R7" id="191">
+      <FatArrow position="16.237999 14.224 1.07111835" direction="1.56000197 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):R7" short="R7"/>
+      <LineSet points="15.4579983 14.224 1.07111835 17.0179996 14.224 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="16.237999 14.0065002 1.07111835 16.237999 14.4414997 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):R8" id="192">
+      <FatArrow position="16.237999 17.5259991 1.07111835" direction="1.56000197 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):R8" short="R8"/>
+      <LineSet points="15.4579983 17.5259991 1.07111835 17.0179996 17.5259991 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="16.237999 17.3085003 1.07111835 16.237999 17.7434998 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):R9" id="193">
+      <FatArrow position="16.237999 15.875 1.07111835" direction="1.56000197 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):R9" short="R9"/>
+      <LineSet points="15.4579983 15.875 1.07111835 17.0179996 15.875 1.07111835" stripped="1" material="$WireMaterial$"/>
+      <LineSet points="16.237999 15.6575003 1.07111835 16.237999 16.0925007 1.07111835" lines="0 1" material="$PortMaterial$"/>
+    </Object>
+    <Object name="Lumped Elements\EFR32(PCB1):element1" id="194">
+      <FatArrow position="22.520546 38.6360016 0.85333842" direction="0.155092388 0 0" dimension="10 10 10" material="$WireMaterial$" text="EFR32(PCB1):element1" short="element1"/>
+      <LineSet points="22.4430008 38.6360016 0.85333842 22.598093 38.6360016 0.85333842" stripped="1" material="$WireMaterial$"/>
+    </Object>
+    <Object name="Ports\port1" id="195">
+      <Cone position="21.9002895 50.9977112 0.862228394" direction="-0.671380162 -0.700222433 -0.0177800003" dimension="10 10 10" material="$PortMaterial$" text="1" short="1"/>
+      <LineSet points="22.2359791 51.3478203 0.871118426 21.5645981 50.6475983 0.85333842" stripped="1" material="$WireMaterial$"/>
+    </Object>
+  </Objects>
+  <Materials/>
+  <Groups/>
+</CSTAuxiliaryGeometry>
